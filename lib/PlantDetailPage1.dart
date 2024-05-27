@@ -63,7 +63,7 @@ class PlantDetails extends StatelessWidget {
                     color: Colors.black,
                     fontSize: 16,
                   ),
-                )
+                ),
               ],
             ),
           ),
@@ -90,7 +90,7 @@ class PlantDetails extends StatelessWidget {
             ),
           ),
           Container(
-            margin: EdgeInsets.only(top: 20),
+            margin: EdgeInsets.only(top: 20, bottom: 20),
             padding: EdgeInsets.only(left: 20, right: 20),
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
