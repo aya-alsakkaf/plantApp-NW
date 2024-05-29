@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loginplant/ShoppingCart.dart';
+import 'package:loginplant/ShoppingCart2.dart';
 import 'package:loginplant/signup.dart';
 import 'PlantDetailPage1.dart';
 
@@ -65,7 +66,7 @@ class HomePage extends StatelessWidget {
           IconButton(
             onPressed: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ShoppingCart()));
+                  MaterialPageRoute(builder: (context) => ShoppingCartPage()));
             },
             icon: Icon(Icons.shopping_cart),
             color: Colors.white,
@@ -180,7 +181,7 @@ class PlantCard extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => ShoppingCart()));
+                            builder: (context) => ShoppingCartPage()));
                   },
                   icon: Icon(Icons.trolley, color: Colors.white),
                   style: IconButton.styleFrom(
