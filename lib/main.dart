@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loginplant/Login.dart';
+import 'package:loginplant/ShoppingCart2.dart';
 import 'package:loginplant/signup.dart';
 import 'package:loginplant/homepage.dart';
 import 'ShoppingCart.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignUpPage(),
+      home: ShoppingCartPage(),
       routes: {
         '/signup': (context) => SignUpPage(),
         '/login': (context) => LoginPage(),
