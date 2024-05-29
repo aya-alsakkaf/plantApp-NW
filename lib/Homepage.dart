@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loginplant/ShoppingCart.dart';
 import 'package:loginplant/ShoppingCart2.dart';
-import 'package:loginplant/signup.dart';
 import 'PlantDetailPage1.dart';
 
 void main() {

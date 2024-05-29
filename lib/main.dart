@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loginplant/Login.dart';
-import 'package:loginplant/ShoppingCart2.dart';
 import 'package:loginplant/signup.dart';
 import 'package:loginplant/homepage.dart';
-import 'ShoppingCart.dart';
 
 void main() {
   runApp(const MyApp());
